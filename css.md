@@ -74,4 +74,36 @@ css background properties
 **border-radius**
 >border-radius: 5px;
 
+### Margin
+
+**分离属性**
+
+> - `margin-top`
+> - `margin-right`
+> - `margin-bottom`
+> - `margin-left`
+
+**元素设置在容器中居中**（一定要设置width）
+
+> div {
+> ​    **width: 300px;**
+> ​    margin: auto;
+> ​    border: 1px solid red;
+> }
+
+**继承父元素的margin属性inherit**
+
+> div.container {
+> ​    border: 1px solid red;
+> ​    margin-left: 100px;
+> }
+>
+> p.one {
+> ​    margin-left: inherit;
+> }
+
+**margin距离重叠**
+
+- 上下距离选最大的
+- 左右距离直接叠加
 
