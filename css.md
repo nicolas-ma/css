@@ -107,3 +107,26 @@ css background properties
 - 上下距离选最大的
 - 左右距离直接叠加
 
+
+### padding
+
+**分离属性**
+
+>- `padding-top`
+>- `padding-right`
+>- `padding-bottom`
+>- `padding-left`
+
+盒子的宽高为width+ padding，height+ padding（加上padding的属性）
+
+
+
+```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
+
+sudo add-apt-repository 'deb https://typora.io ./linux/'
+sudo apt-get update
+
+sudo apt-get install typora
+```
+
