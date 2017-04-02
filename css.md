@@ -130,3 +130,123 @@ sudo apt-get update
 sudo apt-get install typora
 ```
 
+### text
+
+**color**
+
+**text-align**
+
+**text-decoration**
+
+````
+text-decoration: none;
+text-decoration: overline;上
+text-decoration: line-through;中
+text-decoration: underline;下
+````
+
+**text-transform**字体变形
+
+````
+ text-transform: uppercase;全大写
+ text-transform: lowercase;全小写
+ text-transform: capitalize;首字母大写
+````
+
+**text-indent**第一行间距
+
+````
+text-indent: 50px;
+     In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'
+````
+
+**letter-spacing**  字的距离
+
+````
+letter-spacing: 3px;
+````
+
+**line-height**行直接的间距
+
+````
+line-height: 0.8;
+````
+
+**word-spacing**字间距
+
+**text-shadow**字体的阴影
+
+````
+text-shadow: 3px 2px red;
+````
+
+### Fonts
+
+````
+ font-family: "Times New Roman", Times, serif;
+````
+
+**font-style**
+
+````
+ font-style: normal;
+ font-style: italic;
+ font-style: oblique;
+}
+````
+
+**font-size**
+
+**font-weight**
+
+````
+font-weight: normal;
+font-weight: bold;
+````
+
+### icons
+
+````
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+````
+
+### Links
+
+```
+a:link{}
+a:visited{}
+a:hover
+a:active
+```
+
+### Lists
+
+```
+ul
+  li
+  li
+//
+ol有序
+  li
+  li
+```
+
+
+
+```
+ list-style-type: circle/square/upper-roman/lower-alpha/none;
+ list-style-image: url('sqpurple.gif');
+  list-style-position: inside/outside;
+```
+
+```
+remove默认配置
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+```
+
